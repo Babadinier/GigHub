@@ -211,6 +211,18 @@
     <Compile Include="Migrations\201706141307463_PopulateGenresTable.Designer.cs">
       <DependentUpon>201706141307463_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706141457383_AddForeignKeyPropertiesToGig.cs" />
+    <Compile Include="Migrations\201706141457383_AddForeignKeyPropertiesToGig.Designer.cs">
+      <DependentUpon>201706141457383_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706141501073_AddForeignKeyPropertiesToGig1.cs" />
+    <Compile Include="Migrations\201706141501073_AddForeignKeyPropertiesToGig1.Designer.cs">
+      <DependentUpon>201706141501073_AddForeignKeyPropertiesToGig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706141516330_correctLastMigration.cs" />
+    <Compile Include="Migrations\201706141516330_correctLastMigration.Designer.cs">
+      <DependentUpon>201706141516330_correctLastMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -311,6 +323,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706141307463_PopulateGenresTable.resx">
       <DependentUpon>201706141307463_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706141457383_AddForeignKeyPropertiesToGig.resx">
+      <DependentUpon>201706141457383_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706141501073_AddForeignKeyPropertiesToGig1.resx">
+      <DependentUpon>201706141501073_AddForeignKeyPropertiesToGig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706141516330_correctLastMigration.resx">
+      <DependentUpon>201706141516330_correctLastMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
